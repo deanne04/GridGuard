@@ -1,0 +1,30 @@
+# Python environments and cache
+.venv*/
+.conda-env/
+venv/
+__pycache__/
+*.py[cod]
+
+# Data and generated results
+data/
+results/
+backups/
+
+# Trained model files
+*.joblib
+*.pkl
+
+# Secrets
+.env
+.env.*
+
+# Reflex generated files
+ui/.web/
+ui/.reflex/
+ui/node_modules/
+
+# Backup and previous versions
+*backup*
+*.backup
+*.before_*
+*_before_*

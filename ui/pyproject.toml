@@ -1,0 +1,22 @@
+[project]
+name = "ui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "joblib>=1.6.0",
+    "numpy>=2.4.6",
+    "pandas<3.0",
+    "pyarrow>=18",
+    "pyspark>=4.2.0",
+    "reflex>=0.9.12",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+ui = "ui:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
